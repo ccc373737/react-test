@@ -5,8 +5,9 @@ import State1 from './State1'
 import State2 from './State2'
 import Game from './game/Game'
 import Todo from './todo/Todo';
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
 //import './index.css';
-//import App from './App';
+import App1 from './App1';
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -15,8 +16,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   //<RangeBadge removed={true} inRange={true} />
-  // <State2 />
-  <Game />
+  <App1 />
 );
 
 // root.render(
