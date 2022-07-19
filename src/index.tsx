@@ -8,6 +8,7 @@ import Todo from './todo/Todo';
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 //import './index.css';
 import App1 from './App1';
+import Test from './web3/Test';
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -16,7 +17,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   //<RangeBadge removed={true} inRange={true} />
-  <App1 />
+  <Test />
 );
 
 // root.render(
