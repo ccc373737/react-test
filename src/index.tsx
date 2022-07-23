@@ -8,7 +8,8 @@ import Todo from './todo/Todo';
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 //import './index.css';
 import App1 from './App1';
-import Test from './web3/Test';
+//import Test from './web3/Test';
+import Test from './web3/Weth1';
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
