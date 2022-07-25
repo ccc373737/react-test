@@ -57,11 +57,16 @@ export default function Test() {
         .catch((e)=>console.log(e))
     }
 
-    const onClickTransfer = () => {
+    const onClickTransfer = async () => {
         const provider = new ethers.providers.Web3Provider(window.ethereum)
         const signer = provider.getSigner()
 
-        // Sending 1 ETH
+        // const temp = await signer.signMessage("Hello 11111");
+        // const sig = ethers.utils.splitSignature(temp);
+
+        // console.log(sig);
+
+        //Sending 1 ETH
         const tx = signer.sendTransaction({
             to: WETH.address,
             value: ethers.utils.parseEther("1.0")
@@ -142,3 +147,4 @@ export default function Test() {
        </div>
     )
 }
+
