@@ -10,6 +10,8 @@ const store = configureStore({
     },
     //https://redux-toolkit.js.org/api/configureStore
     devTools: true
+
+    
     
 })
 
